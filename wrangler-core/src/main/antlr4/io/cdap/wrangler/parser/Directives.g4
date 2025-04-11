@@ -196,6 +196,11 @@ identifierList
  ;
 
 
+BYTE_SIZE: 'BYTE_SIZE';
+TIME_DURATION: 'TIME_DURATION';
+BYTE_UNIT: 'KB' | 'MB' | 'GB';
+TIME_UNIT: 'ms' | 's' | 'm' | 'h';
+
 /*
  * Following are the Lexer Rules used for tokenizing the recipe.
  */
